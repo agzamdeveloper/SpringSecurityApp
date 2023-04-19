@@ -7,6 +7,6 @@ import uzb.asadullaev.FirstSecurityApp.models.Person;
 import java.util.Optional;
 
 @Repository
-public interface PeopleRepository extends JpaRepository<Person, Integer> {
+public interface PeopleRepository extends JpaRepository <Person, Integer> {
     Optional<Person> findByUsername(String username);
 }
